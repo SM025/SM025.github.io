@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>W.C - DELIIVERY FAQS</title>
+        		<!--BOOTSTRAP CDN, DO NOT REMOVE.-->
+                <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+                <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+   
+                
+                <link rel="preconnect" href="https://fonts.googleapis.com">
+                <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+                <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,600;0,700;1,100&display=swap" rel="stylesheet">
+
+       <style>
+            .toast{
+                width: 50%;
+                text-align: center;
+                margin-top:30%;
+                background-color: antiquewhite;
+            }
+            p{
+                font-size:large;
+                text-indent: 3%;
+            }
+            body{
+                background-image: url("images/homee.png");
+                background-size: cover;
+                overflow-x: hidden;
+                position: relative;
+                background-attachment: fixed; 
+                font-family: 'Poppins', sans-serif;
+                overflow-y: scroll;
+
+            }
+            .box{
+                background-color:rgb(216, 185, 169); 
+                padding: 1%;
+            }
+            .banner{
+                padding-top: 3%;
+                color: #6c1818e7;
+            }
+            .modal{
+                margin-top: 6%;
+            }
+            .log-in{
+                margin-top: 2%;;
+            }
+            .pic{
+            width: 30%;
+            height: 90%;
+            }
+            .row{
+                margin-left: 15%;
+                margin-right: 15%;
+            }
+            .card-img-top{
+                    width: 30%;
+                    height: 30%;
+            }
+            span{
+                text-align: center;
+            }
+            #bodymain{
+                background-color: rgba(236, 222, 222, 0.9);
+                height: 700px;
+            }
+            .accordion-body{
+                background-color: rgb(86, 63, 52); 
+                color: white;
+            }
+        
+        </style>
+   
+     </head>
+   
+   
+    <body>
+        
+        <nav class="box navbar sticky-top navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+                <a href="index.html">
+                    <img src="images/logo.jpg" alt="" width="35" height="35" class="d-inline-block align-text-top me-2">
+                </a>
+                <a class="navbar-brand">WHISCAKES CREATION</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+                <div class="collapse navbar-collapse" id="navbarText">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="index.html">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="gallery.html">GALLERY</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">ABOUT US</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active fw-bold" href="faqs.html">FAQS</a>
+                    </li>
+                    </ul>
+                    <div class="log">
+                            <!-- Button trigger modal -->
+                                <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#myModal1">
+                                    <img src="https://cdn-icons-png.flaticon.com/512/668/668709.png" width="24" height="24" class="d-inline-block align-text-top me-1">
+                                    LOG IN / REGISTER
+                                    
+                                </button>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+            <!--FAQS DROPDOWN-->
+            <div id="bodymain" class="container-fluid mb-5">
+
+                <h2 class="banner fs-1 fw-bold text-center">W.C DELIVERY & LOCATION FAQS</h2> <br>
+
+                <div class="container container-fluid w-75">
+                    <div class="accordion" id="accordionExample">
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                <img src="https://cdn-icons-png.flaticon.com/512/7941/7941511.png" width="20" height="20" class="d-inline-block align-text-top me-2">
+                                Where do you deliver your products?
+                            </button>
+                          </h2>
+                          <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                             <p>We offer delivery service in selected barangays in Pasig City. Free shipping is only available inside Santolan area. There is a 150 Php delivery cost outside area of Santolan.</p>
+                            </div>
+                          </div>
+                        </div>
+                       <div class="accordion-item">
+                          <h2 class="accordion-header" id="headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                <img src="https://cdn-icons-png.flaticon.com/512/7941/7941511.png" width="20" height="20" class="d-inline-block align-text-top me-2">
+                                What are the selected barangays in Pasig are available for ordering and delivery?
+                            </button>
+                          </h2>
+                          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <p>These are the barangays available in district 1 & 2:<br><br>
+                                    District 1:
+
+                                    <UL>
+                                        <li>Bambang</li>
+                                        <li>Caniogan</li>
+                                        <li>Kapasigan</li>
+                                        <li>San Jose</li>
+                                        <li>San Nicolas</li>
+                                        <li>Sta. Cruz</li>
+                                        <li>Sto. Tomas</li>
+                                    </UL>
+                    
+                                    <br>
+                    
+                                    District 2:<br>
+                    
+                                    <UL>
+                                        <li>Dela Paz</li>
+                                        <li>Manggahan</li>
+                                        <li>Maybunga</li>
+                                        <li>Pinagbuhatan</li>
+                                        <li>Rosario</li>
+                                        <li>San Miguel</li>
+                                        <li>Santolan</li>
+                                    </UL>
+
+
+
+
+
+                                </p>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingThree">
+                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                  <img src="https://cdn-icons-png.flaticon.com/512/7941/7941511.png" width="20" height="20" class="d-inline-block align-text-top me-2">
+                                  Can non-resident(s) of Pasig purchase your products?
+                              </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                              <div class="accordion-body">
+                                <p>
+                                    We apologize, but we only serve Pasig residents (in selected barangays). <!--If a non-Pasig resident wants to make an order, they must contact us first to discuss ordering and delivery outside of Pasig City.-->
+                                
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                       
+                    </div>
+
+     
+
+                </div>
+
+                <!--MODAL-->
+                <div class="py-2">
+                    <div class="modal" id="myModal1">
+                        <div class="modal-dialog modal-dialog-scrollable">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <img src="https://cdn-icons-png.flaticon.com/512/599/599527.png" alt="" width="27" height="24" class="me-2">
+                                    <h5 class="modal-title fw-bold">WELCOME!</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="bg-light p-5 border shadow">
+                                        <!-- Login Form -->
+                                        <form>                
+                                            <div class="mb-4">
+                                                <input type="email" class="form-control" placeholder="Enter Email">
+                                                <p class="form-text text-end">Enter Valid Email</p>
+                                            </div>
+                                            <div class="mb-4">
+                                                <input type="password" class="form-control" placeholder="Enter Password">
+                                                <p class="form-text text-end">Enter Valid Password</p>
+                                            </div>
+                                            <div class="mb-4 form-check w-100">        
+                                                <label class="form-check-label">
+                                                <input type="checkbox" class="form-check-input"> Show Password
+                                                </label>
+                                                <a href="#" class="float-end">Reset Password</a>
+                                            </div>
+                                            <div class="text-center">
+                                                <a href="verification.html" class="btn btn-success btn-md active w-75 my-3 shadow text-decoration-none text-white" role="button" aria-pressed="true">Log In</a>
+
+                                                <!--<button type="submit" class="btn btn-success w-100 my-3 shadow"><a href="" class="text-decoration-none text-white" role="button">Login</a></button>-->
+                                            </div>
+                                        </form>
+                                        <!-- Login Form -->
+                                    </div>
+                                </div>
+                                <div class="modal-footer justify-content-center">
+                                    <!--  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>-->
+                                    New to W.C?<a href="register.html" class="float-end text-decoration-none"> Register here.</a>
+                                   </div>
+                               
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                
+                            <!--<div class="container1 container p-5">
+                                <div class="pic1 mb-5 bg-light">
+                                    <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/448/448003.png"  class="pic"></a><br>
+                                    <h3>Cakes</h3>
+                                </div>
+                                <div class="pic2 mb-5 bg-success">
+                                    <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/992/992754.png"  class="pic"></a><br>
+                                    <h3>Mini Cakes</h3>
+                                </div>
+                                <div class="pic3 mb-5 bg-primary">
+                                    <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/1784/1784096.png"  class="pic"></a><br>
+                                    <h3>Sweets</h3>
+                                </div>
+                                <div class="pic4 mb-5 bg-warning">
+                                    <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/3348/3348075.png"  class="pic"></a><br>
+                                    <h3>Bread & Pies</h3>
+                                </div>
+                            </div>-->
+
+
+
+                      
+                   
+
+
+
+
+
+
+               
+                
+               
+               
+            
+
+
+
+              <script type="text/javascript">
+                            
+                var myModal = new bootstrap.Modal(document.getElementById('myModal'), {})
+                myModal.toggle()
+
+            </script>
+
+    </body>
+</html>

@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>W.C - GALLERY (MINI CAKES)</title>
+        		<!--BOOTSTRAP CDN, DO NOT REMOVE.-->
+                <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+                <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+   
+                
+                <link rel="preconnect" href="https://fonts.googleapis.com">
+                <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+                <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,600;0,700;1,100&display=swap" rel="stylesheet">
+
+       <style>
+            .toast{
+                width: 50%;
+                text-align: center;
+                margin-top:30%;
+                background-color: antiquewhite;
+            }
+            p{
+                font-size: medium;
+                text-indent: 5%;
+            }
+            body{
+                background-image: url("images/homee.png");
+                
+                background-size: cover;
+                overflow-x: hidden;
+                position: relative;
+                background-attachment: fixed; 
+                font-family: 'Poppins', sans-serif;
+                overflow-y: scroll;
+
+            }
+            .box{
+                background-color:rgb(216, 185, 169); 
+                padding: 1%;
+            }
+            .banner{
+                padding-top: 3%;
+                color: #6c1818e7;
+            }
+            .modal1{
+                margin-top: 6%;
+            }
+            .log-in{
+                margin-top: 2%;;
+            }
+            #tab2{
+                overflow-y: scroll;
+            }
+
+            .pic{
+               margin: auto;
+            }
+            .row{
+                margin-left: 15%;
+                margin-right: 15%;
+            }
+            span{
+                text-align: center;
+            }
+            #bodymain{
+                background-color: rgba(236, 222, 222, 0.9);
+            }
+            hr{
+                width: 70%;
+                margin: auto;
+            }
+            
+        </style>
+   
+     </head>
+   
+   
+    <body>
+        
+        <nav class="box navbar sticky-top navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+                <a href="index.html">
+                    <img  src="images/logo.jpg" alt="" width="35" height="35" class="d-inline-block align-text-top me-2">
+                </a>
+                <a class="navbar-brand">WHISCAKES CREATION</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+                <div class="collapse navbar-collapse" id="navbarText">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="index.html">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active fw-bold" href="gallery.html">GALLERY</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">ABOUT US</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="faqs.html">FAQS</a>
+                    </li>
+                    </ul>
+                    <div class="log">
+                            <!-- Button trigger modal -->
+                                <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#myModal1">
+                                    <img src="https://cdn-icons-png.flaticon.com/512/668/668709.png" width="24" height="24" class="d-inline-block align-text-top me-1">
+                                    LOG IN / REGISTER
+                                    
+                                </button>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+            <div id="bodymain" class="container-fluid pb-3">
+
+                <h2 class="banner fs-1 fw-bold text-center mb-4"> MINI CAKES</h2> 
+                
+                <h6 class="text-center m-3">These our sample products. To see other cake designs, please log-in or register.</h6>
+            
+            <hr>
+
+                <div class="container-fluid">
+
+                
+                     <!--ROW PICS WITH MODAL-->
+                     <div class="row mt-5">
+                        <a href="images/bday14.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="pic col-sm-4">
+                            <img src="images/bday14.jpg" class="img-fluid">
+                        </a>
+                        <a href="images/bday7.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="pic col-sm-4">
+                            <img src="images/bday7.jpg" class="img-fluid">
+                        </a>
+                        <a href="images/bdaycake23.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="pic col-sm-4">
+                            <img src="images/bdaycake23.jpg" class="img-fluid">
+                        </a>
+                    </div>
+                    <div class="row mt-2">
+                        <a href="images/bday1.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="pic col-sm-4">
+                            <img src="images/bday1.jpg" class="img-fluid">
+                        </a>
+                        <a href="images/bday2.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="pic col-sm-4">
+                            <img src="images/bday2.jpg" class="img-fluid">
+                        </a>
+                        <a href="images/bday11.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="pic col-sm-4">
+                            <img src="images/bday11.jpg" class="img-fluid">
+                        </a>
+                    </div>
+        
+            </div>
+
+
+
+              
+
+
+                <div class="py-2">
+                    <div class="modal modal1" id="myModal1">
+                        <div class="modal-dialog modal-dialog-scrollable">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <img src="https://cdn-icons-png.flaticon.com/512/599/599527.png" alt="" width="27" height="24" class="me-2">
+                                    <h5 class="modal-title fw-bold">WELCOME!</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="bg-light p-5 border shadow">
+                                        <!-- Login Form -->
+                                        <form>                
+                                            <div class="mb-4">
+                                                <input type="email" class="form-control" placeholder="Enter Email">
+                                                <p class="form-text text-end">Enter Valid Email</p>
+                                            </div>
+                                            <div class="mb-4">
+                                                <input type="password" class="form-control" placeholder="Enter Password">
+                                                <p class="form-text text-end">Enter Valid Password</p>
+                                            </div>
+                                            <div class="mb-4 form-check w-100">        
+                                                <label class="form-check-label">
+                                                <input type="checkbox" class="form-check-input"> Show Password
+                                                </label>
+                                                <a href="#" class="float-end">Reset Password</a>
+                                            </div>
+                                            <div class="text-center">
+                                                <a href="verification.html" class="btn btn-success btn-md active w-75 my-3 shadow text-decoration-none text-white" role="button" aria-pressed="true">Log In</a>
+
+                                                <!--<button type="submit" class="btn btn-success w-100 my-3 shadow"><a href="" class="text-decoration-none text-white" role="button">Login</a></button>-->
+                                            </div>
+                                           
+                                        </form>
+                                        <!-- Login Form -->
+                                    </div>
+                                </div>
+                                <div class="modal-footer justify-content-center">
+                                    <!--  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>-->
+                                    New to W.C?<a href="register.html" class="float-end text-decoration-none"> Register here.</a>
+                                   </div>
+                               
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                
+                <!--<div class="container1 container p-5">
+                    <div class="pic1 mb-5 bg-light">
+                        <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/448/448003.png"  class="pic"></a><br>
+                        <h3>Cakes</h3>
+                    </div>
+                    <div class="pic2 mb-5 bg-success">
+                        <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/992/992754.png"  class="pic"></a><br>
+                        <h3>Mini Cakes</h3>
+                    </div>
+                    <div class="pic3 mb-5 bg-primary">
+                        <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/1784/1784096.png"  class="pic"></a><br>
+                        <h3>Sweets</h3>
+                    </div>
+                    <div class="pic4 mb-5 bg-warning">
+                        <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/3348/3348075.png"  class="pic"></a><br>
+                        <h3>Bread & Pies</h3>
+                    </div>
+                  </div>-->
+
+
+
+
+
+
+               
+                
+               
+               
+            
+
+
+
+              <script type="text/javascript">
+                            
+                var myModal = new bootstrap.Modal(document.getElementById('myModal'), {})
+                myModal.toggle()
+
+            </script>
+
+            <script src="https://cdn.jsdelivr.net/npm/bs5-lightbox@1.8.2/dist/index.bundle.min.js"></script>
+
+    </body>
+</html>
